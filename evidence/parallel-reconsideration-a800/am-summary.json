@@ -1,0 +1,30 @@
+{
+  "sampled_peak_gpu_mib": 3309,
+  "last_logged_step": 37410,
+  "logged_rows": 3741,
+  "zero_gradient_logs": 388,
+  "window_size": 50,
+  "opening_loss_median": 11.743587017059326,
+  "trailing_loss_median": 0.08975766226649284,
+  "median_samples_per_second": 8.390313542394052,
+  "maximum_logged_grad_norm": 25.646831512451172,
+  "elapsed": 4525.097151130438,
+  "step": 37410,
+  "reloaded_step": 36000,
+  "stop": "manual SIGINT requested by user",
+  "forward_smoke": {
+    "checkpoint": "epoch_17_step_36000/model/consolidated",
+    "changed_parameter_max_abs": {
+      "self_query.weight": 0.07891195267438889,
+      "halt_gate.weight": 0.2367570400238037
+    },
+    "logit_shape": [
+      1,
+      17,
+      8192
+    ],
+    "one_pass_refinement_max_abs": 10.046875,
+    "finite_logits": true
+  },
+  "checkpoint": "epoch_17_step_36000"
+}
